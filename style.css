@@ -5,7 +5,7 @@
 }
 .flex-container {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     background-color: #f2f2f2;
     width: 100%;
@@ -55,29 +55,28 @@ button:hover {
 .luxury button {
     color: #00403f;
 }
-@media screen and (max-width: 777px) {
+@media screen and (max-width: 376px) {
     .flex-container {
         display: block;
-        width: 20vw;
-        height: 200px;
-    }
-}
-@media screen and (min-width: 375px) {
-    .flex-container {
-        width: 65vw;
-        justify-content: center ;
-        align-items: center;
-        background-color: #f2f2f2;   
-    }
-    h1 {
-        font-size: 1.2rem;
+        background-color: #f2f2f2;
+        width: 100%;
+        height: 100%;
+        
     }
     .sedans {
-        border-bottom-left-radius: 0;
         border-top-right-radius: 5px;
+        border-bottom-left-radius: 0;
+        width: 50%;
+        margin-left: 5.5rem;
     }
     .luxury {
         border-bottom-left-radius: 5px;
         border-top-right-radius: 0;
+        width: 50%;
+        margin-left: 5.5rem;
+    }
+    .suvs {
+        width: 50%;
+        margin-left: 5.5rem;
     }
 }
